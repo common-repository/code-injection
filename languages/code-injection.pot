@@ -1,0 +1,265 @@
+# Copyright (C) 2018 Rmanaf
+# This file is distributed under the same license as the Code Injection plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Code Injection 2.4.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/code-injection\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-23T12:08:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: code-injection\n"
+
+#. Plugin Name of the plugin
+#: code-injection.php:254
+#: includes/plugin-widget.php:19
+msgid "Code Injection"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Rmanaf/wp-code-injection"
+msgstr ""
+
+#. Description of the plugin
+#: includes/plugin-widget.php:20
+msgid "This plugin allows you to inject code snippets into the pages."
+msgstr ""
+
+#. Author of the plugin
+msgid "Rmanaf"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/rmanaf/"
+msgstr ""
+
+#: code-injection.php:283
+msgid "Code Options"
+msgstr ""
+
+#: code-injection.php:294
+msgid "Shortcodes"
+msgstr ""
+
+#: code-injection.php:323
+msgid "Activator Keys"
+msgstr ""
+
+#: code-injection.php:372
+msgid "Cache max-age (Seconds)"
+msgstr ""
+
+#: code-injection.php:393
+msgid "Allow nested shortcodes"
+msgstr ""
+
+#: code-injection.php:406
+msgid "Keys:"
+msgstr ""
+
+#: code-injection.php:409
+msgid "Generate Key"
+msgstr ""
+
+#: code-injection.php:413
+msgid "Enter Keys:"
+msgstr ""
+
+#: code-injection.php:432
+msgid "Ignore activator keys"
+msgstr ""
+
+#: code-injection.php:444
+msgid "Allow shortcodes in the Custom HTML widget"
+msgstr ""
+
+#: code-injection.php:456
+msgid "Enable %s shortcode"
+msgstr ""
+
+#: code-injection.php:463
+msgid "See %s for more information."
+msgstr ""
+
+#: code-injection.php:467
+msgid "Readme"
+msgstr ""
+
+#: code-injection.php:670
+msgid "Developer"
+msgstr ""
+
+#: includes/code-metabox.php:44
+msgid "Code Settings"
+msgstr ""
+
+#: includes/code-metabox.php:197
+msgid "Slug"
+msgstr ""
+
+#: includes/code-metabox.php:206
+msgid "Description"
+msgstr ""
+
+#: includes/code-metabox.php:208
+msgid "Write something about your code..."
+msgstr ""
+
+#: includes/code-metabox.php:220
+msgid "Tracking"
+msgstr ""
+
+#: includes/code-metabox.php:234
+#: includes/code-type.php:546
+msgid "Publicly Queryable"
+msgstr ""
+
+#: includes/code-metabox.php:246
+msgid "No-Cache"
+msgstr ""
+
+#: includes/code-metabox.php:257
+msgid "Content-Type"
+msgstr ""
+
+#: includes/code-metabox.php:288
+#: includes/code-type.php:540
+msgid "As Plugin"
+msgstr ""
+
+#: includes/code-metabox.php:293
+msgid "Activator key"
+msgstr ""
+
+#: includes/code-metabox.php:295
+msgid "Enter key..."
+msgstr ""
+
+#: includes/code-metabox.php:312
+msgid "From File"
+msgstr ""
+
+#: includes/code-metabox.php:314
+msgid "Select File"
+msgstr ""
+
+#: includes/code-metabox.php:325
+msgid "Active"
+msgstr ""
+
+#: includes/code-type.php:189
+msgid "Show All %s"
+msgstr ""
+
+#: includes/code-type.php:267
+msgid "Copy the Code ID into the Clipboard"
+msgstr ""
+
+#: includes/code-type.php:268
+msgid "Copy CID"
+msgstr ""
+
+#: includes/code-type.php:411
+msgid "Codes"
+msgstr ""
+
+#: includes/code-type.php:412
+#: includes/code-type.php:471
+msgid "Code"
+msgstr ""
+
+#: includes/code-type.php:413
+msgid "Add New Code"
+msgstr ""
+
+#: includes/code-type.php:414
+msgid "Edit Code"
+msgstr ""
+
+#: includes/code-type.php:415
+msgid "New Code"
+msgstr ""
+
+#: includes/code-type.php:416
+msgid "Search Codes"
+msgstr ""
+
+#: includes/code-type.php:417
+msgid "No codes found"
+msgstr ""
+
+#: includes/code-type.php:418
+msgid "No codes found in Trash"
+msgstr ""
+
+#: includes/code-type.php:419
+msgid "All Codes"
+msgstr ""
+
+#: includes/code-type.php:473
+msgid "Info"
+msgstr ""
+
+#: includes/code-type.php:475
+msgid "Hits"
+msgstr ""
+
+#: includes/code-type.php:503
+msgid "Categories"
+msgstr ""
+
+#: includes/code-type.php:515
+msgid "Author"
+msgstr ""
+
+#: includes/code-type.php:524
+msgid "Date"
+msgstr ""
+
+#: includes/code-type.php:549
+msgid "Caching Enabled"
+msgstr ""
+
+#: includes/code-type.php:552
+msgid "Type: "
+msgstr ""
+
+#: includes/code-type.php:557
+msgid "Tracking Enabled"
+msgstr ""
+
+#: includes/code-type.php:585
+msgid "Suspended"
+msgstr ""
+
+#: includes/code-type.php:593
+msgid "Code ID"
+msgstr ""
+
+#: includes/plugin-widget.php:62
+msgid "Code ID:"
+msgstr ""
+
+#: includes/plugin-widget.php:64
+msgid "Select"
+msgstr ""
+
+#: assets/js/code-editor.js:243
+msgid "The File is too large. Do you want to proceed?"
+msgstr ""
+
+#: assets/js/code-editor.js:250
+msgid "The selected file type is not supported."
+msgstr ""
+
+#: assets/js/code-editor.js:264
+msgid "Are you sure? You are about to replace the current code with the selected file content."
+msgstr ""
+
+#: assets/js/code-editor.js:218
+msgid "Copy"
+msgstr ""

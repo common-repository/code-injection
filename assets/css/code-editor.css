@@ -1,0 +1,275 @@
+.dcp-ci-editor {
+    height: 100%;
+    min-height: 500px;
+}
+
+.dcp-ci-toolbar {
+    background-color: #1e1e1e!important;
+    border-bottom: 1px solid #383838 !important;
+}
+
+.dcp-ci-toolbar>button {
+    color: white;
+}
+
+.wp-core-ui .dcp-ci-editor .button, .wp-core-ui .dcp-ci-editor .button-secondary {
+    color: inherit!important;
+    border: none;
+    background-color: inherit!important;
+    vertical-align: unset;
+    outline: none!important;
+    min-height: inherit!important;
+    margin: inherit;
+    padding: inherit!important;
+    -webkit-appearance: inherit!important;
+    border-radius: inherit!important;
+    white-space: inherit!important;
+    box-sizing: inherit!important;
+}
+
+.wp-core-ui .dcp-ci-editor .button.disabled {
+    text-shadow: none!important;
+}
+
+textarea:focus, .wp-core-ui .dcp-ci-editor .button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.monaco-aria-container {
+    display: none;
+}
+
+.wp-core-ui .monaco-editor.hc-black .find-widget .button:not(.disabled):hover, .monaco-editor.vs-dark .find-widget .button:not(.disabled):hover {
+    background-color: hsla(0, 0%, 100%, .1)!important;
+}
+
+.dcp-ci-editor {
+    direction: ltr;
+    text-align: left;
+}
+
+.ci-description {
+    position: relative;
+    font-size: 13px;
+    font-style: italic;
+    margin: 2px 0 5px;
+    color: #666;
+    padding-left: 20px;
+}
+
+.ci-description .dashicons {
+    position: absolute;
+    left: 0;
+}
+
+.ci-header {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 14px!important;
+}
+
+.ci-header .ci-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.ci-header p {
+    padding-left: 7px;
+}
+
+.rtl .ci-header p {
+    padding-left: 0;
+    padding-right: 7px;
+}
+
+#postdivrich.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+}
+
+input.apple-switch:focus {
+    box-shadow: unset;
+}
+
+.dcp-ci-toolbar .ci-languages {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.dcp-ci-toolbar .ci-languages li.ci-lang-select {
+    margin: 2px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.dcp-ci-toolbar .ci-languages li.ci-lang-select.active {
+    background-color: #e91e63;
+    border-radius: 3px;
+    color: white;
+}
+
+.ci-metabox-group {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#titlediv #title {
+    border-radius: 0;
+    border: none;
+    color: #d4d4d4;
+    font-family: "Droid Sans Mono", monospace, monospace, "Droid Sans Fallback";
+    z-index: 2;
+    position: relative;
+    font-size: 1.1rem;
+    background: transparent;
+}
+
+#title-prompt-text {
+    display: none;
+}
+
+#titlewrap {
+    position: relative;
+    overflow: hidden;
+    background: #1e1e1e;
+}
+
+#titlewrap.busy{
+    background: transparent;
+}
+
+#titlewrap.busy::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -46px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    background: -webkit-repeating-linear-gradient( 145deg, #1e1e1e 1px, #272727 2px, #272727 11px, #1e1e1e 12px, #1e1e1e 20px);
+    background: repeating-linear-gradient( -55deg, #1e1e1e 1px, #272727 2px, #272727 11px, #1e1e1e 12px, #1e1e1e 20px);
+    -webkit-animation-name: MOVE-BG;
+    -webkit-animation-duration: .6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: MOVE-BG;
+    animation-duration: .6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#title.disabled-input{
+    pointer-events:none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#titlewrap .copy-btn{
+    position: absolute;
+    right: 0%;
+    top:0;
+
+    width: 67px;
+    height: 30px;
+    color: #50575e;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titlewrap .copy-btn:hover{
+    color: white;
+}
+
+input.apple-switch {
+    position: relative;
+    appearance: none;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #D9DADC;
+    border-radius: 50px;
+    box-shadow: inset -20px 0 0 0 #ffffff;
+    transition: box-shadow 200ms linear;
+    -webkit-transition: box-shadow 200ms linear;
+    -moz-transition: box-shadow 200ms linear;
+    -ms-transition: box-shadow 200ms linear;
+    -o-transition: box-shadow 200ms linear;
+}
+
+input.apple-switch:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+}
+
+input.apple-switch:checked {
+    border-color: #4e9bd1;
+    box-shadow: inset 20px 0 0 0 #4e9bd1;
+}
+
+input.apple-switch:checked:after {
+    left: 20px;
+    box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
+}
+
+input.apple-switch:checked:before {
+    content: "";
+}
+
+@media screen and (max-width: 782px) {
+    #postdivrich.fullscreen {
+        padding-top: 46px;
+    }
+    .quicktags-toolbar {
+        min-height: 35px!important;
+    }
+}
+
+@-webkit-keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(46px);
+    }
+}
+
+@keyframes MOVE-BG {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(46px);
+    }
+}

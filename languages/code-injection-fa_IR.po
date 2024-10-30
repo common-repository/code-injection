@@ -1,0 +1,265 @@
+# Copyright (C) 2018 Rmanaf
+# This file is distributed under the same license as the Code Injection plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Code Injection 2.4.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/code-injection\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-23T12:08:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: code-injection\n"
+
+#. Plugin Name of the plugin
+#: code-injection.php:254
+#: includes/plugin-widget.php:19
+msgid "Code Injection"
+msgstr "تزریق کد"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Rmanaf/wp-code-injection"
+msgstr ""
+
+#. Description of the plugin
+#: includes/plugin-widget.php:20
+msgid "This plugin allows you to inject code snippets into the pages."
+msgstr "این افزونه به شما اجازه می‌ دهدتا قطعه کد های خود را به صفحات اضافه کنید."
+
+#. Author of the plugin
+msgid "Rmanaf"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/rmanaf/"
+msgstr ""
+
+#: code-injection.php:283
+msgid "Code Options"
+msgstr "تنظیمات کد"
+
+#: code-injection.php:294
+msgid "Shortcodes"
+msgstr "کدکوتاه ها"
+
+#: code-injection.php:323
+msgid "Activator Keys"
+msgstr "کلیدهای فعالسازی"
+
+#: code-injection.php:372
+msgid "Cache max-age (Seconds)"
+msgstr "نهایت عمر کش (به ثانیه)"
+
+#: code-injection.php:393
+msgid "Allow nested shortcodes"
+msgstr "اجازه استفاده از کدکوتاه ها بصورت سلسله مراتبی"
+
+#: code-injection.php:406
+msgid "Keys:"
+msgstr "کلیدها:"
+
+#: code-injection.php:409
+msgid "Generate Key"
+msgstr "ساختن کلید"
+
+#: code-injection.php:413
+msgid "Enter Keys:"
+msgstr "کلید ها را وارد کنید:"
+
+#: code-injection.php:432
+msgid "Ignore activator keys"
+msgstr "نادیده گرفتن کلیدهای فعالسازی"
+
+#: code-injection.php:444
+msgid "Allow shortcodes in the Custom HTML widget"
+msgstr "اجازه استفاده از کدکوتاه ها در ابزارک HTML سفارشی"
+
+#: code-injection.php:456
+msgid "Enable %s shortcode"
+msgstr "فعال کردن کدکوتاه %s"
+
+#: code-injection.php:463
+msgid "See %s for more information."
+msgstr "برای اطلاعات بیشتر %s"
+
+#: code-injection.php:467
+msgid "Readme"
+msgstr "مرابخوان"
+
+#: code-injection.php:670
+msgid "Developer"
+msgstr "برنامه نویس"
+
+#: includes/code-metabox.php:44
+msgid "Code Settings"
+msgstr "تنظیمات کد"
+
+#: includes/code-metabox.php:197
+msgid "Slug"
+msgstr "نامک"
+
+#: includes/code-metabox.php:206
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/code-metabox.php:208
+msgid "Write something about your code..."
+msgstr "چیزی درباره کد خود بنویسید..."
+
+#: includes/code-metabox.php:220
+msgid "Tracking"
+msgstr "ردیابی"
+
+#: includes/code-metabox.php:234
+#: includes/code-type.php:546
+msgid "Publicly Queryable"
+msgstr "دسترسی عمومی"
+
+#: includes/code-metabox.php:246
+msgid "No-Cache"
+msgstr "بدون کش"
+
+#: includes/code-metabox.php:257
+msgid "Content-Type"
+msgstr "نوع محتوا"
+
+#: includes/code-metabox.php:288
+#: includes/code-type.php:540
+msgid "As Plugin"
+msgstr "به عنوان افزونه"
+
+#: includes/code-metabox.php:293
+msgid "Activator key"
+msgstr "کلید فعال سازی"
+
+#: includes/code-metabox.php:295
+msgid "Enter key..."
+msgstr "کلید را وارد کنید"
+
+#: includes/code-metabox.php:312
+msgid "From File"
+msgstr "از روی فایل"
+
+#: includes/code-metabox.php:314
+msgid "Select File"
+msgstr "انتخاب فایل"
+
+#: includes/code-metabox.php:325
+msgid "Active"
+msgstr "فعال"
+
+#: includes/code-type.php:189
+msgid "Show All %s"
+msgstr "نمایش همه %s"
+
+#: includes/code-type.php:267
+msgid "Copy the Code ID into the Clipboard"
+msgstr "کپی شناسه کد در کلیپ بورد"
+
+#: includes/code-type.php:268
+msgid "Copy CID"
+msgstr "کپی شناسه کد"
+
+#: includes/code-type.php:411
+msgid "Codes"
+msgstr "کد ها"
+
+#: includes/code-type.php:412
+#: includes/code-type.php:471
+msgid "Code"
+msgstr "کد"
+
+#: includes/code-type.php:413
+msgid "Add New Code"
+msgstr "افزودن کد جدید"
+
+#: includes/code-type.php:414
+msgid "Edit Code"
+msgstr "ویرایش کد"
+
+#: includes/code-type.php:415
+msgid "New Code"
+msgstr "کد جدید"
+
+#: includes/code-type.php:416
+msgid "Search Codes"
+msgstr "جستجو کدها"
+
+#: includes/code-type.php:417
+msgid "No codes found"
+msgstr "هیچ کدی پیدا نشد"
+
+#: includes/code-type.php:418
+msgid "No codes found in Trash"
+msgstr "هیچ کدی در زباله دان پیدا نشد"
+
+#: includes/code-type.php:419
+msgid "All Codes"
+msgstr "همه کدها"
+
+#: includes/code-type.php:473
+msgid "Info"
+msgstr "اطلاعات"
+
+#: includes/code-type.php:475
+msgid "Hits"
+msgstr "برخورد ها"
+
+#: includes/code-type.php:503
+msgid "Categories"
+msgstr "دسته ها"
+
+#: includes/code-type.php:515
+msgid "Author"
+msgstr "نویسنده"
+
+#: includes/code-type.php:524
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/code-type.php:549
+msgid "Caching Enabled"
+msgstr "کش فعال است"
+
+#: includes/code-type.php:552
+msgid "Type: "
+msgstr "نوع: "
+
+#: includes/code-type.php:557
+msgid "Tracking Enabled"
+msgstr "ردیابی فعال است"
+
+#: includes/code-type.php:585
+msgid "Suspended"
+msgstr "معلق شده"
+
+#: includes/code-type.php:593
+msgid "Code ID"
+msgstr "شناسه کد"
+
+#: includes/plugin-widget.php:62
+msgid "Code ID:"
+msgstr "شناسه کد:"
+
+#: includes/plugin-widget.php:64
+msgid "Select"
+msgstr "انتخاب کنید"
+
+#: assets/js/code-editor.js:243
+msgid "The File is too large. Do you want to proceed?"
+msgstr "حجم فایل بسیار زیاد است. آیا مایل به ادامه هستید؟"
+
+#: assets/js/code-editor.js:250
+msgid "The selected file type is not supported."
+msgstr "از این فایل پشتیبانی نمی شود."
+
+#: assets/js/code-editor.js:264
+msgid "Are you sure? You are about to replace the current code with the selected file content."
+msgstr "مطمئن هستید؟ شما در حال جایگزین کردن کد با محتویات فایل هستید."
+
+#: assets/js/code-editor.js:218
+msgid "Copy"
+msgstr "کپی"

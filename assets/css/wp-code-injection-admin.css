@@ -1,0 +1,362 @@
+.gdcp-heatmap-container {
+  width: 332px;
+  height: 84px;
+}
+
+.gdcp-heatmap-row {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+.gdcp-heatmap-row .dow {
+  float: left;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  line-height: 11px;
+  margin-right: 2px;
+  width: 30px;
+  text-align: left;
+  color: #aaa;
+}
+
+.gdcp-heatmap-cell {
+  display: block;
+  padding: 0;
+  margin: 1px;
+  float:left;
+  background-color: #ebedf0;
+  width:10px;
+  height:10px;
+  position: relative;
+}
+
+.ci-codes__info li span,
+.gdcp-heatmap-cell .info {
+  display: none;
+  position: absolute;
+  bottom: 17px;
+  left: 50%;
+  transform: translate(-50% , 0);
+  -webkit-transform: translate(-50% , 0);
+  border-radius: 4px;
+  background-color: #1f1f1f;
+  background-color: rgba(0,0,0,.78);
+  padding: 10px;
+  box-sizing: border-box;
+  width: 170px;
+  color: #ccc;
+  text-align: center;
+  z-index: 100;
+  margin: 0;
+}
+
+.gdcp-chart-colors {
+  font-size: 10px;
+  line-height: 8px;
+  margin-top: 4px;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.gdcp-chart-colors .gradient {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
+.gdcp-chart-colors i {
+  float:left;
+  margin:1px;
+}
+
+.ci-barchart__container {
+  width: 298px;
+  margin-left: 33px;
+  position: relative;
+}
+
+.ci-barchart__container .month{
+  position: absolute;
+  top: 50%;
+  transform: translate(-35px, -50%);
+  line-height: 10px;
+  left: 0;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.ci-barchart__container .bar {
+  fill: #3db1c7;
+  -webkit-transition: fill .3s ease;
+  transition: fill .3s ease;
+}
+
+.ci-barchart__container .bar:hover,
+.ci-barchart__container .bar:focus {
+  fill: #5cd4ec !important;
+}
+
+.ci-barchart__container .bar .tooltip {
+  display: none;  
+}
+
+.ci-barchart__container .bar:hover .tooltip,
+.ci-barchart__container .bar:focus .tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ci-barchart__container .bar .tooltip .count {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ci-barchart__container .bar .grid,
+.ci-barchart__container .bar .grid {
+  stroke: #f5f5f5;
+  -webkit-transition: stroke .3s ease;
+  transition: stroke .3s ease;
+}
+
+.ci-barchart__container .bar .grid:hover,
+.ci-barchart__container .bar .grid:focus {
+  stroke: #cccccc;
+}
+
+
+.ci-codes__info li strong,
+.gdcp-heatmap-cell .info strong {
+  color:white;
+}
+
+.ci-codes__info li span .arrow-down,
+.gdcp-heatmap-cell .info .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0,0,0,.8);
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50% , 0);
+}
+
+
+.ci-codes__info li:hover span,
+.gdcp-heatmap-cell:hover .info {
+
+  display:block;
+
+}
+
+.column-statistics {
+  width: 332px;
+  position: relative;
+  min-height: 100px;
+}
+
+.ci-codes__description {
+  text-align: justify;
+  padding: 4px;
+  background: #eaeaea;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.ci-codes__heatmap-na{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: -35px;
+  margin-top: -35px;
+  color: #656565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02) 5px, rgba(0, 0, 0, 0.1) 5px, rgba(0, 0, 0, 0.1) 10px);
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.ci-codes__errors,
+.ci-codes__suspended {
+  font-weight: bold;
+  width: 100%;
+  padding: 3px;
+  color: white !important;
+  background: #2d2d2d;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.ci-codes__errors{
+  background: #d25b5b;
+}
+
+
+.ci-codes__info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 4px;
+}
+
+.ci-codes__info li {
+  margin: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  padding: 6px;
+  position: relative;
+}
+
+.ci-codes__info li.cache {
+  background-image: url('../image/database.svg');
+}
+
+.ci-codes__info li.queryable {
+  background-image: url('../image/external-link.svg');
+}
+
+.ci-codes__info li.type {
+  background-image: url('../image/file-text.svg');
+}
+
+.ci-codes__info li.trackable {
+  background-image: url('../image/map-pin.svg');
+}
+
+.ci-codes__info li.plugin {
+  background-image: url('../image/package.svg');
+}
+
+.ci-codes__info li span {
+  bottom: 46px;
+}
+
+
+.ci-codes__spinner {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top:-25px;
+  margin-left: -25px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(19, 124, 133, 0.3);
+  border-radius: 50%;
+  border-top-color: #137b85;
+  animation: ci-codes__spin 1s ease-in-out infinite;
+  -webkit-animation: ci-codes__spin 1s ease-in-out infinite;
+}
+
+
+.gdcp-version-box {
+  font-size: 12px;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+  background-color: #00b2ff;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.rtl .gdcp-version-box {
+  margin-right: 8px;
+}
+
+
+
+.tag-editor .tag-editor-delete i {
+  line-height: unset !important;
+}
+
+.ack-head-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.ack-head-wrapper .ack-title {
+  float: left;
+}
+
+.rtl .ack-head-wrapper .ack-title {
+  float: right!important;
+}
+
+.ack-head-wrapper .ack-new {
+  float: right;
+}
+
+.rtl .ack-head-wrapper .ack-new{
+  float: left!important;
+}
+
+p.description code {
+  font-style: normal;
+}
+
+
+
+.ci-codes__suspension-bg {
+  background: linear-gradient(270deg, #34b727, #6cd5b6, #6cc6d5);
+  background-size: 600% 600%;
+
+  -webkit-animation: ci-codes__suspension-bg-anim 4s ease infinite;
+  -moz-animation: ci-codes__suspension-bg-anim 4s ease infinite;
+  -o-animation: ci-codes__suspension-bg-anim 4s ease infinite;
+  animation: ci-codes__suspension-bg-anim 4s ease infinite;
+}
+
+
+
+@-webkit-keyframes ci-codes__suspension-bg-anim {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes ci-codes__suspension-bg-anim {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes ci-codes__suspension-bg-anim {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes ci-codes__suspension-bg-anim {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+
+
+@keyframes ci-codes__spin {
+  to { transform: rotate(360deg); }
+}
+@-webkit-keyframes ci-codes__spin {
+  to { -webkit-transform: rotate(360deg); }
+}
